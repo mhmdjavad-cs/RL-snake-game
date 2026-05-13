@@ -426,20 +426,20 @@ class SnakeGame:
                 self.direction = "right"
 
 
-game = SnakeGame(10, 10)
-game.print_board()
-
-while(1):
-    a = int(input())
-    if a == 1:
-        action = [1,0,0]
-    elif a == 2:
-        action = [0,1,0]
-    elif a == 3:
-        action = [0,0,1]
-    else:
-        break
-
-    game.update_game(action)
-    print('-------\t' + str(game.score) + '\t-------')
-    game.print_board()
+# game = SnakeGame(10, 10)
+# game.print_board()
+#
+# while(1):
+#     a = int(input())
+#     if a == 1:
+#         action = [1,0,0]
+#     elif a == 2:
+#         action = [0,1,0]
+#     elif a == 3:
+#         action = [0,0,1]
+#     else:
+#         break
+#
+#     game.update_game(action)
+#     print('-------\t' + str(game.score) + '\t-------')
+#     game.print_board()
